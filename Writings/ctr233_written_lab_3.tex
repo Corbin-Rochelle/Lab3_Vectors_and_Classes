@@ -1,0 +1,25 @@
+\documentclass[12pt]{article}
+
+\title{Lab 3 - Vectors and Classes Write Up}
+\author{Corbin T Rochelle (ctr233)}
+\date{\today}
+
+\usepackage{hyperref}
+
+\begin{document}
+\maketitle
+
+\section{Question 1}
+This lab requires a thoughtful use of class inheritance. 
+Since the three classes we want to include in the vector are all subclasses of the DataNode class, they can all be included as the overall class in the same vector. 
+They are all DataNodes, but each of the three is a special version of it.
+
+\section{Question 2}
+Double Dispatch is a special version of overloading class functions that makes the program call the correct function, even though the different classes all have the same function with the same name, based off of the data type of the class it is applied to. 
+In this assignment double dispatch is used to overload the printing operator.
+We implement this to easily be able to print all of the information from aVector without any logical overhead for the printing functions. 
+
+\section{Question 3}
+I consulted the \href{https://en.wikipedia.org/wiki/Double_dispatch}{Wikipedia Page for Double Dispatch} because I had never heard the term before and \href{https://www.ibm.com/docs/en/i/7.3?topic=only-destructors-c}{IBM's Documentation for Destructors} for syntax reasons.
+
+\end{document}
